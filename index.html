@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/cloudy.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="fa-solid fa-angle-left"></i>
+            <h2>Weather App</h2>
+        </header>
+
+        <section class="input-part">
+            <p class="info-text"></p>
+
+            <input type="text" placeholder="Enter city name" class="city-name" spellcheck="false">
+
+            <div class="seperator">
+                <span>OR</span>
+            </div>
+
+            <button class="location-btn">Get User Location <i class="fa-solid fa-location-dot"></i></button>
+        </section>
+
+        <section class="weather-part">
+
+            <img src="#" alt="weather icon">
+
+            <div class="temperature">
+                <span class="number">--</span>
+                <span class="degree">°</span>
+                <span class="c">c</span>
+            </div>
+
+            <div class="weather">__</div>
+
+            <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>__, __</span>
+            </div>
+
+            <div class="details">
+                <div class="col humidity">
+                    <p>Humidity</p>
+                    <p class="numb">--</p>
+                </div>
+                <div class="col pressure">
+                    <p>Pressure</p>
+                    <p class="numb">--</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+
+    <script src="script.js" type="module"></script>
+    <!-- <script src="script.js" type="module"></script> -->
+</body>
+</html>
